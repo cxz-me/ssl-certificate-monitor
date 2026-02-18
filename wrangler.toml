@@ -7,12 +7,12 @@ enabled = true
 
 [[kv_namespaces]]
 binding = "SSL_KV"
-id = "placeholder"
+id = "994012b7e4614277813f0bc74801115a"
 
 [[d1_databases]]
 binding = "SSL_DB"
 database_name = "ssl-certificate-monitor-db"
-database_id = "placeholder"
+database_id = "2fe2a495-36c6-4142-8c78-f313be787fe5"
 
 [vars]
 ENVIRONMENT = "production"
