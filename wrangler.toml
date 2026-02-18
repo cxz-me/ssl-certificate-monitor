@@ -1,0 +1,18 @@
+name = "ssl-certificate-monitor"
+main = "src/worker.ts"
+compatibility_date = "2024-01-17"
+
+[observability]
+enabled = true
+
+[[kv_namespaces]]
+binding = "SSL_KV"
+id = "placeholder"
+
+[[d1_databases]]
+binding = "SSL_DB"
+database_name = "ssl-certificate-monitor-db"
+database_id = "placeholder"
+
+[vars]
+ENVIRONMENT = "production"
